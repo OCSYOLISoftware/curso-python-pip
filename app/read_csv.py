@@ -1,20 +1,6 @@
 import csv
 
 def read_csv(path):
-    with open(path, 'r') as csvfile:
-        reader = csv.reader(csvfile, delimiter=',')
-        header = next(reader)
-        data = []
-        for row in reader:
-            iterable = zip(header, row)
-            llamadas_dict = {key: value for key, value in interable}
-            data.append(llamadas_dict)
-            return data
-
-
-import csv
-
-def read_csv(path):
   with open(path, 'r') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
     header = next(reader)
