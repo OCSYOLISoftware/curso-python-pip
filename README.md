@@ -13,6 +13,7 @@ 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
 ```sh
 git clone
 cd app
+python 3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
 python3 app
