@@ -1,6 +1,6 @@
 # Game Project
 
-Para correr el juego debes seguir las isntrucciones
+Para correr el juego debes seguir las instrucciones
 
 ```sh
 cd game
